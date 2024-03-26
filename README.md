@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# Lottery Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is a raffle smart contract that allows players to enter the raffle by paying the raffle entrance fee and a winner is selected fully automated using chainlink VRF and keepers.
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+yarn install
 ```
